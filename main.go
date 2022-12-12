@@ -53,7 +53,7 @@ func main() {
         return
     }
 
-    fmt.Println("Enter the second digit")
+    fmt.Println("Enter the 2nd digit")
     if _, err := fmt.Scan(&secondNum); err != nil {
         log.Print("Failed to scan second number", err)
         return
